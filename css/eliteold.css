@@ -1,0 +1,909 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
+.elite-banner{
+    width: 100%;
+    height:100%;
+    background: #009746;
+    text-align: center;
+    color: white;
+}
+.elite-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.elite-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.elite-heading h1{
+    font-weight: 700;
+    padding-top: 100px;
+    font-size: 62px;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+.elite-heading h4{
+    width: 70%;
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 28px;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.elite-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.descriptioninfo{
+    width: 100%;
+    height: 100%;
+}
+
+.descriptioninfo-container{
+    width: 100%;
+    text-align: center;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.descriptioninfo-container p{
+    width: 57%;
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.descriptioninfo-container p span{
+    font-weight: 700;
+}
+
+.highlight{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 40px 0px;
+}
+.highlight-heading{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+}
+.highlight-heading h1{
+    font-family:"DM Sans",sans-serif;
+font-weight: 700;
+font-size: 38px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 20px;
+color: #1D2B4F;
+}
+.highlight-container{
+    width: 100%;
+}
+.highlight-row{
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.highlight-card{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+.highlight-icon{
+    background-color: #009746;
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+}
+
+.highlight-icon img{
+    width: 70px;
+    height: 70px;
+}
+
+.highlight-content{
+    width: 70%;
+    text-align: center;
+}
+
+.highlight-content h4{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+
+.amenities{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amenities-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.amenities-container{
+    width: 56%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.amenities-row{
+ display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.amenities-card{
+    width:35%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.amenities-icon{
+    background-color: #E9FFE8;
+    padding: 5px 10px;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.amenities-icon img{
+    width: 50px;
+    height: 50px;
+}
+.amenities-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amenities-card .amenities-desc h4{
+    width: 90%;
+    font-family: "DM Sans",sans-serif;
+font-weight: 300;
+font-size: 15px;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+
+.config{
+    background-color: #16161E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+   
+}
+
+.config-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table {
+    width: 100%;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+   box-shadow: 0px 9px 0px #ffffff53, 0px 18px 0 #ffffff28;
+}
+
+th, td {
+  padding:6em 3em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}
+th{
+    padding: 10px;
+    background-color: #009746;
+}
+td{
+    text-align: center;
+   padding: 5px 10px;
+   background: #fff;
+    color: #1D2B4F;
+}
+
+td button{
+    background-color: #16161E;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.advantage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #009746;
+    padding: 40px 70px;
+}
+
+.adv-container{
+    width: 35%;
+     display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+}
+.adv-container .adv-content{
+        text-align:center;
+       
+}
+
+.adv-container .adv-content h1{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+text-transform: capitalize;
+}
+.adv-container .adv-content p{
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+} 
+.adv-list ul li{
+    
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-left: 40px;
+margin-bottom: 10px;
+}
+.elite-about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.eliteabout-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.eliteabout-row{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+.eliteabout-col{
+    width: 50%;
+}
+.eliteabout-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.eliteabout-col .eliteabout-content h1{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+.eliteabout-col .eliteabout-content p{
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0%;
+}
+.eliteabout-col .eliteabout-content button{
+    background-color: #16161E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.eliteabout-col img{
+    width: 100%;
+    height: 400px;
+}
+
+.own{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 50px;
+}
+.own-heading h1{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+.own-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.own-card{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.own-card img{
+    width: 40px;
+    height: 40px;
+}
+
+.own-card h4{
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+}
+
+.own-button button{
+    background-color: #16161E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.desclaimer p{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 12px;
+line-height: 27px;
+letter-spacing: 0%;
+vertical-align: middle;
+}
+
+@media only screen and (max-width: 950px){
+ .elite-banner{
+    width: 100%;
+    height:100%;
+    background: #009746;
+    text-align: center;
+    color: white;
+}
+.elite-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.elite-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.elite-heading h1{
+    font-weight: 700;
+    padding-top: 100px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+.elite-heading h4{
+    width: 80%;
+    font-family: DM Sans;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.elite-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.descriptioninfo{
+    width: 100%;
+    height: 100%;
+}
+
+.descriptioninfo-container{
+    width: 100%;
+    text-align: center;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+}
+
+.descriptioninfo-container p{
+    width: 100%;
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.descriptioninfo-container p span{
+    font-weight: 700;
+}
+
+.highlight{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+.highlight-heading{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+}
+.highlight-heading h1{
+    font-family:"DM Sans",sans-serif;
+font-weight: 700;
+font-size: 38px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 20px;
+color: #1D2B4F;
+}
+.highlight-container{
+    width: 100%;
+}
+.highlight-row{
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.highlight-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+.highlight-icon{
+    background-color: #009746;
+    padding: 14px 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.highlight-icon img{
+    width: 40px;
+    height: 40px;
+}
+
+.highlight-content{
+    width: 80%;
+    text-align: center;
+}
+
+.highlight-content h4{
+    font-family: DM Sans;
+font-weight: 700;
+        font-size: 9px;
+        line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+
+.amenities{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px
+}
+.amenities-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.amenities-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.amenities-row{
+ display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.amenities-card{
+    width:35%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.amenities-icon{
+    background-color: #E9FFE8;
+    padding: 5px 10px;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.amenities-icon img{
+    width: 50px;
+    height: 50px;
+}
+.amenities-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amenities-card .amenities-desc h4{
+    width: 90%;
+    font-family: "DM Sans",sans-serif;
+font-weight: 300;
+font-size: 15px;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+
+.config{
+    background-color: #16161E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+   
+}
+
+.config-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table {
+    width: 100%;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+   box-shadow: 0px 9px 0px #ffffff53, 0px 18px 0 #ffffff28;
+}
+
+th, td {
+  padding:6em 3em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}
+th{
+    padding: 10px;
+    background-color: #009746;
+}
+td{
+    text-align: center;
+   padding: 5px 10px;
+   background: #fff;
+    color: #1D2B4F;
+}
+
+td button{
+    background-color: #16161E;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.advantage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #009746;
+    padding: 40px 70px;
+}
+
+.adv-container{
+    width: 100%;
+     display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+       
+}
+.adv-container .adv-content{
+        text-align:center;
+       
+}
+
+.adv-container .adv-content h1{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+text-transform: capitalize;
+}
+.adv-container .adv-content p{
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+} 
+.adv-list ul li{
+    
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-left: 0px;
+margin-bottom: 10px;
+}
+.elite-about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.eliteabout-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.eliteabout-row{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.eliteabout-col{
+    width: 100%;
+}
+.eliteabout-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.eliteabout-col .eliteabout-content h1{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #1D2B4F;
+}
+.eliteabout-col .eliteabout-content p{
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0%;
+}
+.eliteabout-col .eliteabout-content button{
+    background-color: #16161E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.eliteabout-col img{
+    width: 100%;
+    height: 250px;
+}
+
+.own{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10px;
+}
+.own-heading h1{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #1D2B4F;
+text-align: center;
+}
+.own-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.own-card{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.own-card img{
+    width: 40px;
+    height: 40px;
+}
+
+.own-card h4{
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+}
+
+.own-button button{
+    background-color: #16161E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.desclaimer p{
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 12px;
+line-height: 27px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-align: center;
+}
+   
+}
