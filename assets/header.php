@@ -1,66 +1,69 @@
- 
  <header>
-  <div class="navbar">
-    <div class="logo"><img width="100px" src="./ongoing-img/logo.png" alt=""></div>
-    <div class="hamburger" onclick="toggleMenu()">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <ul class="menu" id="menu">
-      <li><a href="index.php">Home</a></li>
-      <li><a href="about.php">About</a></li>
-      <li onclick="toggleDropdown(event)">
-        <a href="#">Projects <i class="ri-arrow-down-s-line"></i></a>
-        <ul class="dropdown">
-          <li onclick="toggleSubDropdown(event)">
-            <a href="#">Onoging Projects <i class="ri-arrow-down-s-line"></i></a>
-            <ul class="dropdown-sub">
-              <li><a href="ongoing.php">All Projects</a></li>
-              <li><a href="amara.php">Pyramid Amara</a></li>
-              <li><a href="elite.php">Pyramid Elite</a></li>
-              <li><a href="gloria.php">Pyramid Gloria</a></li>
-            </ul>
-          </li>
-          <!--<li><a href="ongoing.php">Ongoing Projects</a></li>-->
-          <li><a href="completed.php">Completed Projects</a></li>
-        </ul>
-      </li>
-      <li><a href="gallery.php">Gallery</a></li>
-      <li><a href="blog.php">Blog</a></li>
-      <li><a href="contact.php">Contact</a></li>
-    </ul>
-  </div>
-</header>
-<script>
-  function toggleMenu() {
+     <div class="navbar">
+         <div class="logo">
+             <a href="/index.php">
+                 <img width="100px" src="../ongoing-img/logo.png" alt="Pyramid Group Logo">
+             </a>
+         </div>
+         <div class=" hamburger" onclick="toggleMenu()">
+             <div></div>
+             <div></div>
+             <div></div>
+         </div>
+         <ul class="menu" id="menu">
+             <li><a href="/index.php">Home</a></li>
+             <li><a href="/about.php">About</a></li>
+             <li onclick="toggleDropdown(event)">
+                 <a href="#">Projects <i class="ri-arrow-down-s-line"></i></a>
+                 <ul class="dropdown">
+                     <li onclick="toggleSubDropdown(event)">
+                         <a href="#">Onoging Projects <i class="ri-arrow-down-s-line"></i></a>
+                         <ul class="dropdown-sub">
+                             <li><a href="/ongoing.php">All Projects</a></li>
+                             <li><a href="/amara.php">Pyramid Amara</a></li>
+                             <li><a href="/elite.php">Pyramid Elite</a></li>
+                             <li><a href="/gloria.php">Pyramid Gloria</a></li>
+                         </ul>
+                     </li>
+                     <!--<li><a href="/ongoing.php">Ongoing Projects</a></li>-->
+                     <li><a href="/completed.php">Completed Projects</a></li>
+                 </ul>
+             </li>
+             <li><a href="/gallery.php">Gallery</a></li>
+             <li><a href="/blog.php">Blog</a></li>
+             <li><a href="/contact.php">Contact</a></li>
+         </ul>
+     </div>
+ </header>
+ <script>
+function toggleMenu() {
     document.getElementById("menu").classList.toggle("active");
-  }
+}
 
-  function toggleDropdown(e) {
+function toggleDropdown(e) {
     if (window.innerWidth <= 768) {
-      e.stopPropagation();
-      const parent = e.currentTarget;
-      parent.classList.toggle("show");
+        e.stopPropagation();
+        const parent = e.currentTarget;
+        parent.classList.toggle("show");
     }
-  }
+}
 
-  function toggleSubDropdown(e) {
+function toggleSubDropdown(e) {
     if (window.innerWidth <= 768) {
-      e.stopPropagation();
-      const parent = e.currentTarget;
-      parent.classList.toggle("show");
+        e.stopPropagation();
+        const parent = e.currentTarget;
+        parent.classList.toggle("show");
     }
-  }
+}
 
-  // Close all dropdowns on outside click
-  document.addEventListener("click", () => {
+// Close all dropdowns on outside click
+document.addEventListener("click", () => {
     if (window.innerWidth <= 768) {
-      document.querySelectorAll(".menu li").forEach(li => li.classList.remove("show"));
-      document.querySelectorAll(".dropdown li").forEach(li => li.classList.remove("show"));
+        document.querySelectorAll(".menu li").forEach(li => li.classList.remove("show"));
+        document.querySelectorAll(".dropdown li").forEach(li => li.classList.remove("show"));
     }
-  });
-</script>
+});
+ </script>
  <!--<header class="header">-->
  <!--     <nav>-->
  <!--       <div class="logo">-->
